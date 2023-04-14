@@ -1,13 +1,28 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Mulish&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color: #fff;
 }
+
+.navbar-brand{
+ font-size: 1.9rem;
+ color: #565383;
+  }
+
+  .navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565383;
+  }
