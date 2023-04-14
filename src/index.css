@@ -8,21 +8,4 @@
   font-family: 'Mulish', sans-serif;
 }
 
-.navbar{
-  background-color: #fff;
-}
 
-.navbar-brand{
- font-size: 1.9rem;
- color: #565383;
-  }
-
-  .navbar a{
-    font-size: 1.3rem;
-    text-transform: capitalize;
-  }
-
-  .menu_active{
-    font-weight: bold;
-    border-bottom: 1px solid #565383;
-  }
