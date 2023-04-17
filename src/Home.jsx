@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Home.css";
 
 const Home = () => {
   return (
-   <h2>This is Home Page</h2>
+    <section className='home-section'>
+    <p>Welcome to Home Section</p>
+    
+</section>
   )
 }
 

@@ -2,7 +2,11 @@ import React from 'react'
 
 const HealthTips = () => {
   return (
-    <div>HealthTips Page</div>
+    <section className='hero-section'>
+    <p>Welcome to HealthTips Section</p>
+</section>
+
+  
   )
 }
 
