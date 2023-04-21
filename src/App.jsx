@@ -7,6 +7,7 @@ import About from "./About";
 import CheckHealth from "./CheckHealth";
 import HealthTips from "./HealthTips";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -18,9 +19,10 @@ const App = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/checkhealth" element={<CheckHealth/>} />
         <Route path="/healthtips" element={<HealthTips/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
 
-      <Footer/> 
+      {/* <Footer/>  */}
     </>
   );
 };

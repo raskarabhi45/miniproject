@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+    <p>developed by :@health monitoring system</p>
+</footer>
   )
 }
 
