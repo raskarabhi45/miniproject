@@ -1,6 +1,6 @@
 
 
-/* main section #home{
+main section #home{
 
     background-image: url("bgm.jpg"); 
     background-size: 100%; 
@@ -14,14 +14,14 @@
     width:100%;
     background-position: center;
     background-size: cover;
-    opacity:1;
+    opacity:2;
     z-index: -1;
-} */
+}
 
 body header .logo{
     margin:1.7rem 1rem;
     text-transform: capitalize;
-   word-spacing: 0.2rem;
+    word-spacing: 0.2rem;
 }
 body header .logo span{
     background-color: rgb(254, 191, 75);
@@ -78,12 +78,8 @@ main section{
     align-items: center;
     top:5rem;
     height:40rem;
-  background-position: center;
-  background-size: cover;
   /* background-color: black; */
-  background-image: url("bgm.jpg"); 
-  background-size: 100%; 
-   
+  background-image: url("bgm.jpg");  
   padding-top: 20px;
   justify-content: space-between;
   display: flex;
@@ -92,7 +88,7 @@ main section{
   width:100%;
   background-position: center;
   background-size: cover;
-  opacity:3;
+  opacity: 1;
   z-index: -1;
 }
 
