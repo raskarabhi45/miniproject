@@ -1,20 +1,23 @@
-body,html{
-    padding:0;
-    margin:0;
-    text-decoration: none;
-    background-color: #eee;
-}
-body header{
-    position: sticky;
-top: 0;
-    height:5rem;
-    display: flex;
-    flex-direction: row;
+
+
+/* main section #home{
+
+    background-image: url("bgm.jpg"); 
+    background-size: 100%; 
+   
+    padding-top: 20px;
     justify-content: space-between;
-    color:black;
-    text-align: center;
-    background-color: #eee;
-}
+    height: 700px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    opacity:1;
+    z-index: -1;
+} */
+
 body header .logo{
     margin:1.7rem 1rem;
     text-transform: capitalize;
@@ -73,28 +76,27 @@ main section{
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top:5rem;
-    left:0;
-    right:0;
     height:40rem;
   background-position: center;
   background-size: cover;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("bgm.jpg"); 
+  background-size: 100%; 
+   
+  padding-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  opacity:3;
   z-index: -1;
 }
 
-main section::before{    
-    content:" ";
-    height:inherit;
-    width:100%;
-    position: absolute;
-   background-image: url("bgm.jpg"); 
-    background-position: center;
-    background-size: cover;
-    opacity:0.4;
-    z-index: -1;
-}
+
 main section h1{
     color:white;
     text-transform: capitalize;
@@ -114,7 +116,7 @@ main section .div1 h3{
 }
 main section .div1 #h31{
     width:20rem;
-    background-color: rgba(250, 250, 250, 0.405);
+    background-color: rgba(139, 133, 133, 0.405);
     border-radius: 0.5rem;
 }
 
@@ -122,11 +124,11 @@ main section .content h1{
     margin-bottom: 20px;
 }
 
-main section .div1 #h32{
-    background-color: rgba(255, 255, 255, 0.405);
+ section .div1 #h32{
+    background-color:  rgba(139, 133, 133, 0.405);
     border-radius:0.5rem;
 }
-main section #button1{
+ section #button1{
    background-color: orange;
    padding:0.5rem 1rem;
    border-radius:0.5rem;
@@ -137,7 +139,7 @@ main section #button1{
    position: relative;
    top:1rem;
 }
-main section #button1:hover{
+ section #button1:hover{
     color:black;
 }
 
@@ -169,7 +171,7 @@ main section #button1:hover{
     body header #responsive{
         display: inline-block;
     }
-    main section .div1 #h31{
+     section .div1 #h31{
         width:12rem;
     }
 }
