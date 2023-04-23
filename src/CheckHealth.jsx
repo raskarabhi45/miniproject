@@ -4,6 +4,11 @@ import "./CheckHealth.css";
 import { Link } from "react-router-dom";
 
 const CheckHealth = () => {
+
+  const handleClick = () => alert('Please connect to the server and turn on your hardware device ');
+
+
+ 
   return (
    <>
    <section id='check'>
@@ -11,7 +16,7 @@ const CheckHealth = () => {
    <div className='check'>
 
   
-   <Link to="#" id="button2">Check Your Health</Link>
+   <Link to="#" id="button2" onClick={handleClick}>Check Your Health</Link>
    
     
 
