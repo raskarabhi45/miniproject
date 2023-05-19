@@ -31,7 +31,7 @@ const Navbar = () => {
         </nav>
 
         <div className="hamburger" id="responsive2">
-        <a href="#" onClick={}>
+        <a href="#" >
          
         <RxHamburgerMenu/>
 
