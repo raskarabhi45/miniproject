@@ -29,8 +29,14 @@ const Navbar = () => {
         <Link to="/healthtips">HealthTips</Link>
         <Link to="/contact">Contact</Link>
         </nav>
-        <div id="responsive2">
-            <RxHamburgerMenu/>
+
+        <div className="hamburger" id="responsive2">
+        <a href="#" onClick={}>
+         
+        <RxHamburgerMenu/>
+
+        </a> 
+           
         </div>
     </header>
 
