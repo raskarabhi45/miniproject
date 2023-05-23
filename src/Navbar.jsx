@@ -11,6 +11,7 @@ const Navbar = () => {
 
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
+
     };
 
 
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div class="logo">
            <span>Health monitoring System</span>
         </div>
-        <nav className={isMenuOpen ? 'show-menu' : 'hide-menu'} id="nav-bar">  
+        <nav className={isMenuOpen ? 'hamburger_menu_active' : 'hide-menu'} id="nav-bar">  
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/checkhealth">CheckHealth</Link>
@@ -30,14 +31,9 @@ const Navbar = () => {
         <Link to="/contact">Contact</Link>
         </nav>
 
-        <div className="hamburger" id="responsive2">
-        <a href="#" >
-         
-        <RxHamburgerMenu/>
-
-        </a> 
-           
-        </div>
+        <button className="hamburger" id="responsive2" onClick={toggleMenu}>         
+           <RxHamburgerMenu/>
+        </button>
     </header>
 
 

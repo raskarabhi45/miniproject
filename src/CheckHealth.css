@@ -29,13 +29,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 4rem;
+        height: 5rem;
+        width: 12rem;
         background-color: orange;
         padding:0.5rem 1rem;
         border-radius:1rem;
         color:white;
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 800;
         border:1px solid black;
         
 

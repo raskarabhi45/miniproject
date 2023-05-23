@@ -8,7 +8,7 @@ const CheckHealth = () => {
   // const handleClick = () => alert('Please connect to the server and turn on your hardware device ');
 
   const handleClick = () => {
-    window.location.href = 'http://192.168.156.43/';
+    window.location.href = 'http://192.168.43.172/';
   };
 
 

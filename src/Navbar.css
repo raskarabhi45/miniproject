@@ -69,12 +69,22 @@ body header #responsive:hover{
 #responsive2{
   display: none;
 }
+
+.hamburger_menu_active{
+  display: flex !important;
+  flex-direction: column !important;
+  margin-top: 78px !important;
+  top: 0 !important;
+}
+
 @media screen and (max-width:848px) {
   #responsive2{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 25px;
+    border: none;
+
   }
   
 }

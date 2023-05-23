@@ -100,7 +100,7 @@ main section h1{
     margin:0 0.4rem;
 }
 main section .div1{
-    padding:0.5rem 2.5rem;
+    /* padding:0.5rem 2.5rem; */
     text-align: center;
     color:black;
     text-transform: capitalize;
@@ -186,5 +186,9 @@ main section .content h1{
     }
     body header #responsive:hover{
         border:none;
+    }
+
+    main section .div1 #h31{
+        width:18rem;
     }
 }

@@ -124,7 +124,7 @@ section .tip1{
 
 
 @media(max-width:850px){
-    body header #nav-bar {
+    /* body header #nav-bar {
         position:absolute;
         top:-100rem;
         left:0;
@@ -134,7 +134,7 @@ section .tip1{
         background-color: white;
         margin:0;
         transition: 0.2s linear;
-    }
+    } */
     body header .active1{
         position:absolute;
           top:5rem;
